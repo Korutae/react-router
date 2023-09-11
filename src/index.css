@@ -1,0 +1,19 @@
+body {
+  font-family: arial;
+}
+
+nav {
+  display: flex;
+  background-color:darkblue;
+  padding: 1rem;
+  justify-content: space-around;
+}
+
+nav a{
+  color: white;
+  padding: 0.5rem;
+}
+
+nav a.selected {
+  border: solid 1px white;
+}
